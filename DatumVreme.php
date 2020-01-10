@@ -13,9 +13,9 @@ class Datum
     private $godina;
 
     public function __construct(
-        $godina = 1987,
-        $mesec = 1,
-        $dan = 5
+        $godina = 1985,
+        $mesec = 4,
+        $dan = 15
     ) {
         $this->setDan($dan);
         $this->setMesec($mesec);
